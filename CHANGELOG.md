@@ -8,6 +8,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
++ Made it so copying the crontab does not fail when running the Docker
+  container as user with different GID/UID (contributed by
+  [jsimonetti][contributor-jsimonetti])
+
 ## [2.2.0] - 2020-10-23
 
 ### Changed
@@ -91,3 +97,5 @@ and this project adheres to
 [1.3.0]: https://github.com/imtbl/synapse-purge/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/imtbl/synapse-purge/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/imtbl/synapse-purge/compare/1.0.0...1.1.0
+
+[contributor-jsimonetti]: https://github.com/jsimonetti
