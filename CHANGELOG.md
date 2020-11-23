@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
++ Based Docker image on Python 3.9
+
 ### Fixed
 
 + Made it so copying the crontab does not fail when running the Docker
